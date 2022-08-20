@@ -4,28 +4,38 @@
   flex-direction: column;
 
   overflow: hidden;
-  resize: both;
+  // resize: both;
 
   min-height: 200px;
   max-height: 400px;
-  min-width: 400px;
+  min-width: 250px;
 
-  background-color: var(--background_clr__main);
   box-shadow: var(--block-shadow);
+  &__tittle {
+    color: #fff;
+  }
+  &__link {
+    color: #fff;
 
+    &:hover,
+    &:focus {
+      outline-style: none;
+      color: var(--brand_clr__1);
+    }
+  }
   &.--prod-list {
     // margin: 8px;
     flex-basis: 30px;
     flex-grow: 5;
   }
   &.--prod-create {
-    flex-basis: 300px;
+    flex-basis: 250px;
     flex-grow: 2;
     min-height: 200px;
     max-height: 350px;
   }
   &.--prod-stock {
-    flex-basis: 300px;
+    flex-basis: 250px;
     flex-grow: 2;
     min-height: 200px;
     max-height: 350px;
@@ -35,9 +45,11 @@
     position: sticky;
     top: 0;
     left: 0;
+    z-index: 5;
 
     height: 30px;
     width: 100%;
+    padding: 7px 16px;
 
     background-color: var(--brand_clr__2);
   }
@@ -52,6 +64,7 @@
     position: sticky;
     top: 100%;
     left: 0;
+    z-index: 5;
 
     height: 5px;
     width: 100%;
@@ -62,6 +75,7 @@
   & .overflow {
     overflow: auto;
     width: 100%;
+    // width: 400px;
     height: 100%;
   }
 }
