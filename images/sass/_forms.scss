@@ -1,18 +1,12 @@
 .form {
-  display: flex;
-  flex-direction: column;
-  gap: 16px;
-
   height: 100%;
   width: 100%;
-
-  padding-top: 16px;
   & .zone {
     position: relative;
     z-index: 1;
 
     padding: 14px 8px 8px;
-    margin: 0 auto 0;
+    margin: 16px auto 0;
     width: calc(100% - 16px);
 
     background-color: #fff;
@@ -70,9 +64,7 @@
 
       width: 100%;
       padding: 4px;
-
       border-style: none;
     }
   }
-
 }
