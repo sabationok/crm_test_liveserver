@@ -1,124 +1,1210 @@
 <!DOCTYPE html>
 <html lang="uk">
   <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>CRM_main</title>
     <!-- ШРИФТИ -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
-    <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@400;800;700&family=Raleway:wght@700;800;900&family=Roboto:wght@400;800;700;900&display=swap" rel="stylesheet">
-    <!-- стилі слайдера -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.css.map">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@400;500;700&family=Raleway:wght@700;800;900&family=Roboto:wght@400;500;700;900&display=swap"
+      rel="stylesheet"
+    />
+    <!-- slick slider -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.css.map"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.min.css"
+    />
+    <script src="./index.f5d0d7af.js" defer=""></script>
     <!-- стилі -->
-    <link rel="stylesheet" href="./index.b07a87f3.css">
+    <link rel="stylesheet" href="./index.b07a87f3.css" />
   </head>
   <body>
     <header class="header --position --flex">
-  <div class="logo box">
-  <a class="logo_link" href="">CRM_LOGO</a>
-</div>
-  <div class="menu__box">
-  <button class="button --for_menu" type="button">MENU</button>
-  <ul class="nav__list">
-    <li>
-      <a class="nav__link" href="./" rel="noopener noreferrer">
-        Головна
-      </a>
-    </li>
-    <li>
-      <a class="nav__link" href="./mngr_orders.html" rel="noopener noreferrer">
-        Замовлення
-      </a>
-    </li>
-    <li>
-      <a class="nav__link" href="./mngr_returns.html" rel="noopener noreferrer">
-        Повернення
-      </a>
-    </li>
-    <li>
-      <a class="nav__link" href="./mngr_products.html" rel="noopener noreferrer">
-        Товари
-      </a>
-    </li> 
-    <li>
-      <a class="nav__link" href="./mngr_statistics.html" rel="noopener noreferrer">
-        Статистика
-      </a>
-    </li>   
-    <li>
-      <a class="nav__link" href="./mngr_settings.html" rel="noopener noreferrer">
-        Налаштування
-      </a>
-    </li>
-    <li>
-      <a class="nav__link" href="./" rel="noopener noreferrer">
-        Вихід
-      </a>
-    </li>
-  </ul>
-</div>
+      <div class="logo box">
+        <a class="logo_link" href="">CRM_LOGO</a>
+      </div>
+      <div class="menu__box">
+        <button class="button --for_menu" type="button">MENU</button>
+        <ul class="nav__list">
+          <li>
+            <a class="nav__link" href="./" rel="noopener noreferrer"> Головна </a>
+          </li>
+          <li>
+            <a class="nav__link" href="./mngr_orders.html" rel="noopener noreferrer">
+              Замовлення
+            </a>
+          </li>
+          <li>
+            <a class="nav__link" href="./mngr_returns.html" rel="noopener noreferrer">
+              Повернення
+            </a>
+          </li>
+          <li>
+            <a class="nav__link" href="./mngr_products.html" rel="noopener noreferrer"> Товари </a>
+          </li>
+          <li>
+            <a class="nav__link" href="./mngr_statistics.html" rel="noopener noreferrer">
+              Статистика
+            </a>
+          </li>
+          <li>
+            <a class="nav__link" href="./mngr_settings.html" rel="noopener noreferrer">
+              Налаштування
+            </a>
+          </li>
+          <li>
+            <a class="nav__link" href="./" rel="noopener noreferrer"> Вихід </a>
+          </li>
+        </ul>
+      </div>
+    </header>
 
-</header>
-    Прошу скористатись меню навігації.
-
-    <section class="slick__hero">
+    <div class="container__market">
       <div class="slick__container">
-        <!-- ========== slick__box --1 -->
-        <div class="slick__box">
-          <div class="product-cards_slider">
-            <div class="brand-cards__container">
-              <div class="brand-cards__box">
-                Бренд 1
-                <div class="brand-card --1"><img src="https://picsum.photos/800?random=1" alt=""></div>
-                <div class="brand-card --1"><img src="https://picsum.photos/800?random=2" alt=""></div>
-                <div class="brand-card --1"><img src="https://picsum.photos/800?random=3" alt=""></div>
-                <div class="brand-card --1"><img src="https://picsum.photos/800?random=4" alt=""></div>
-                <div class="brand-card --1"><img src="https://picsum.photos/800?random=5" alt=""></div>
-                <div class="brand-card --1"><img src="https://picsum.photos/800?random=6" alt=""></div>
+        <div class="slick__brands-slider">
+          <div class="product-zone__container">
+            <div class="product-cards__header">Header Brand 1</div>
+            <div class="product-cards__list">
+              <div class="product-card --1">
+                <div class="product-card__top">
+                  <div class="product-card__logo">Лого бренду</div>
+                  <div>
+                    <p class="product-card__name">Сукня синя шовкова</p>
+                    <p class="product-card__sku">v003-g0217-art616565165</p>
+                  </div>
+                </div>
+
+                <div class="product-card__img__box">
+                  <button class="product-card__img--overlay-push" type="button">
+                    Більше інформації
+                  </button>
+
+                  <div class="product-card__img--overlay">
+                    <p class="product-card__description">
+                      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deleniti magni
+                      corrupti provident reprehenderit porro repudiandae temporibus illo dolorum
+                      qui? Voluptates vitae molestias quo, cum debitis eum illo eligendi numquam
+                      nulla?
+                    </p>
+
+                    <p>
+                      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deleniti magni
+                      corrupti provident reprehenderit porro repudiandae temporibus illo dolorum
+                      qui? Voluptates vitae molestias quo, cum debitis eum illo eligendi numquam
+                      nulla?
+                    </p>
+                    <p>
+                      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deleniti magni
+                      corrupti provident reprehenderit porro repudiandae temporibus illo dolorum
+                      qui? Voluptates vitae molestias quo, cum debitis eum illo eligendi numquam
+                      nulla?
+                    </p>
+                    <p>
+                      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deleniti magni
+                      corrupti provident reprehenderit porro repudiandae temporibus illo dolorum
+                      qui? Voluptates vitae molestias quo, cum debitis eum illo eligendi numquam
+                      nulla?
+                    </p>
+                  </div>
+
+                  <img
+                    class="product-card__img"
+                    src="./suknia_synia.061849b1.webp"
+                    width="480"
+                    alt=""
+                  />
+                </div>
+
+                <div class="product-card__bottom">
+                  <div class="product-card__wrapper">
+                    <div>
+                      <p class="product-card__price">3955.00грн.</p>
+                      <p class="product-card__cashback">v003 * * *</p>
+                    </div>
+
+                    <button class="button --to-cart" type="button">У кошик</button>
+                  </div>
+
+                  <form class="product-card__feedback">
+                    <input
+                      class="product-card__input"
+                      type="text"
+                      name=""
+                      id=""
+                      placeholder="Ваш відгук"
+                      required=""
+                    />
+                    <button class="button --send-feedback" type="submit">Опублікувати</button>
+                  </form>
+                </div>
+              </div>
+
+              <div class="product-card --1">
+                <div class="product-card__top">
+                  <div class="product-card__logo">Лого бренду</div>
+                  <div>
+                    <p class="product-card__name">Сукня синя шовкова</p>
+                    <p class="product-card__sku">v003-g0217-art616565165</p>
+                  </div>
+                </div>
+
+                <div class="product-card__img__box">
+                  <button class="product-card__img--overlay-push" type="button">
+                    Більше інформації
+                  </button>
+
+                  <div class="product-card__img--overlay">
+                    <p class="product-card__description">
+                      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deleniti magni
+                      corrupti provident reprehenderit porro repudiandae temporibus illo dolorum
+                      qui? Voluptates vitae molestias quo, cum debitis eum illo eligendi numquam
+                      nulla?
+                    </p>
+
+                    <p>
+                      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deleniti magni
+                      corrupti provident reprehenderit porro repudiandae temporibus illo dolorum
+                      qui? Voluptates vitae molestias quo, cum debitis eum illo eligendi numquam
+                      nulla?
+                    </p>
+                    <p>
+                      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deleniti magni
+                      corrupti provident reprehenderit porro repudiandae temporibus illo dolorum
+                      qui? Voluptates vitae molestias quo, cum debitis eum illo eligendi numquam
+                      nulla?
+                    </p>
+                    <p>
+                      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deleniti magni
+                      corrupti provident reprehenderit porro repudiandae temporibus illo dolorum
+                      qui? Voluptates vitae molestias quo, cum debitis eum illo eligendi numquam
+                      nulla?
+                    </p>
+                  </div>
+
+                  <img
+                    class="product-card__img"
+                    src="./suknia_synia.061849b1.webp"
+                    width="480"
+                    alt=""
+                  />
+                </div>
+
+                <div class="product-card__bottom">
+                  <div class="product-card__wrapper">
+                    <div>
+                      <p class="product-card__price">3955.00грн.</p>
+                      <p class="product-card__cashback">v003 * * *</p>
+                    </div>
+
+                    <button class="button --to-cart" type="button">У кошик</button>
+                  </div>
+
+                  <form class="product-card__feedback">
+                    <input
+                      class="product-card__input"
+                      type="text"
+                      name=""
+                      id=""
+                      placeholder="Ваш відгук"
+                      required=""
+                    />
+                    <button class="button --send-feedback" type="submit">Опублікувати</button>
+                  </form>
+                </div>
+              </div>
+
+              <div class="product-card --1">
+                <div class="product-card__top">
+                  <div class="product-card__logo">Лого бренду</div>
+                  <div>
+                    <p class="product-card__name">Сукня синя шовкова</p>
+                    <p class="product-card__sku">v003-g0217-art616565165</p>
+                  </div>
+                </div>
+
+                <div class="product-card__img__box">
+                  <button class="product-card__img--overlay-push" type="button">
+                    Більше інформації
+                  </button>
+
+                  <div class="product-card__img--overlay">
+                    <p class="product-card__description">
+                      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deleniti magni
+                      corrupti provident reprehenderit porro repudiandae temporibus illo dolorum
+                      qui? Voluptates vitae molestias quo, cum debitis eum illo eligendi numquam
+                      nulla?
+                    </p>
+
+                    <p>
+                      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deleniti magni
+                      corrupti provident reprehenderit porro repudiandae temporibus illo dolorum
+                      qui? Voluptates vitae molestias quo, cum debitis eum illo eligendi numquam
+                      nulla?
+                    </p>
+                    <p>
+                      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deleniti magni
+                      corrupti provident reprehenderit porro repudiandae temporibus illo dolorum
+                      qui? Voluptates vitae molestias quo, cum debitis eum illo eligendi numquam
+                      nulla?
+                    </p>
+                    <p>
+                      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deleniti magni
+                      corrupti provident reprehenderit porro repudiandae temporibus illo dolorum
+                      qui? Voluptates vitae molestias quo, cum debitis eum illo eligendi numquam
+                      nulla?
+                    </p>
+                  </div>
+
+                  <img
+                    class="product-card__img"
+                    src="./suknia_synia.061849b1.webp"
+                    width="480"
+                    alt=""
+                  />
+                </div>
+
+                <div class="product-card__bottom">
+                  <div class="product-card__wrapper">
+                    <div>
+                      <p class="product-card__price">3955.00грн.</p>
+                      <p class="product-card__cashback">v003 * * *</p>
+                    </div>
+
+                    <button class="button --to-cart" type="button">У кошик</button>
+                  </div>
+
+                  <form class="product-card__feedback">
+                    <input
+                      class="product-card__input"
+                      type="text"
+                      name=""
+                      id=""
+                      placeholder="Ваш відгук"
+                      required=""
+                    />
+                    <button class="button --send-feedback" type="submit">Опублікувати</button>
+                  </form>
+                </div>
+              </div>
+
+              <div class="product-card --1">
+                <div class="product-card__top">
+                  <div class="product-card__logo">Лого бренду</div>
+                  <div>
+                    <p class="product-card__name">Сукня синя шовкова</p>
+                    <p class="product-card__sku">v003-g0217-art616565165</p>
+                  </div>
+                </div>
+
+                <div class="product-card__img__box">
+                  <button class="product-card__img--overlay-push" type="button">
+                    Більше інформації
+                  </button>
+
+                  <div class="product-card__img--overlay">
+                    <p class="product-card__description">
+                      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deleniti magni
+                      corrupti provident reprehenderit porro repudiandae temporibus illo dolorum
+                      qui? Voluptates vitae molestias quo, cum debitis eum illo eligendi numquam
+                      nulla?
+                    </p>
+
+                    <p>
+                      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deleniti magni
+                      corrupti provident reprehenderit porro repudiandae temporibus illo dolorum
+                      qui? Voluptates vitae molestias quo, cum debitis eum illo eligendi numquam
+                      nulla?
+                    </p>
+                    <p>
+                      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deleniti magni
+                      corrupti provident reprehenderit porro repudiandae temporibus illo dolorum
+                      qui? Voluptates vitae molestias quo, cum debitis eum illo eligendi numquam
+                      nulla?
+                    </p>
+                    <p>
+                      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deleniti magni
+                      corrupti provident reprehenderit porro repudiandae temporibus illo dolorum
+                      qui? Voluptates vitae molestias quo, cum debitis eum illo eligendi numquam
+                      nulla?
+                    </p>
+                  </div>
+
+                  <img
+                    class="product-card__img"
+                    src="./suknia_synia.061849b1.webp"
+                    width="480"
+                    alt=""
+                  />
+                </div>
+
+                <div class="product-card__bottom">
+                  <div class="product-card__wrapper">
+                    <div>
+                      <p class="product-card__price">3955.00грн.</p>
+                      <p class="product-card__cashback">v003 * * *</p>
+                    </div>
+
+                    <button class="button --to-cart" type="button">У кошик</button>
+                  </div>
+
+                  <form class="product-card__feedback">
+                    <input
+                      class="product-card__input"
+                      type="text"
+                      name=""
+                      id=""
+                      placeholder="Ваш відгук"
+                      required=""
+                    />
+                    <button class="button --send-feedback" type="submit">Опублікувати</button>
+                  </form>
+                </div>
+              </div>
+
+              <div class="product-card --1">
+                <div class="product-card__top">
+                  <div class="product-card__logo">Лого бренду</div>
+                  <div>
+                    <p class="product-card__name">Сукня синя шовкова</p>
+                    <p class="product-card__sku">v003-g0217-art616565165</p>
+                  </div>
+                </div>
+
+                <div class="product-card__img__box">
+                  <button class="product-card__img--overlay-push" type="button">
+                    Більше інформації
+                  </button>
+
+                  <div class="product-card__img--overlay">
+                    <p class="product-card__description">
+                      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deleniti magni
+                      corrupti provident reprehenderit porro repudiandae temporibus illo dolorum
+                      qui? Voluptates vitae molestias quo, cum debitis eum illo eligendi numquam
+                      nulla?
+                    </p>
+
+                    <p>
+                      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deleniti magni
+                      corrupti provident reprehenderit porro repudiandae temporibus illo dolorum
+                      qui? Voluptates vitae molestias quo, cum debitis eum illo eligendi numquam
+                      nulla?
+                    </p>
+                    <p>
+                      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deleniti magni
+                      corrupti provident reprehenderit porro repudiandae temporibus illo dolorum
+                      qui? Voluptates vitae molestias quo, cum debitis eum illo eligendi numquam
+                      nulla?
+                    </p>
+                    <p>
+                      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deleniti magni
+                      corrupti provident reprehenderit porro repudiandae temporibus illo dolorum
+                      qui? Voluptates vitae molestias quo, cum debitis eum illo eligendi numquam
+                      nulla?
+                    </p>
+                  </div>
+
+                  <img
+                    class="product-card__img"
+                    src="./suknia_synia.061849b1.webp"
+                    width="480"
+                    alt=""
+                  />
+                </div>
+
+                <div class="product-card__bottom">
+                  <div class="product-card__wrapper">
+                    <div>
+                      <p class="product-card__price">3955.00грн.</p>
+                      <p class="product-card__cashback">v003 * * *</p>
+                    </div>
+
+                    <button class="button --to-cart" type="button">У кошик</button>
+                  </div>
+
+                  <form class="product-card__feedback">
+                    <input
+                      class="product-card__input"
+                      type="text"
+                      name=""
+                      id=""
+                      placeholder="Ваш відгук"
+                      required=""
+                    />
+                    <button class="button --send-feedback" type="submit">Опублікувати</button>
+                  </form>
+                </div>
               </div>
             </div>
-            <div class="brand-cards__container">
-              <div class="brand-cards__box">
-                бренд 2
-                <div class="brand-card --2"><img src="https://picsum.photos/800?random=7" alt=""></div>
-                <div class="brand-card --2"><img src="https://picsum.photos/800?random=8" alt=""></div>
-                <div class="brand-card --2"><img src="https://picsum.photos/800?random=9" alt=""></div>
-                <div class="brand-card --2"><img src="https://picsum.photos/800?random=10" alt=""></div>
-                <div class="brand-card --2"><img src="https://picsum.photos/800?random=11" alt=""></div>
-                <div class="brand-card --2"><img src="https://picsum.photos/800?random=12" alt=""></div>
+          </div>
+
+          <div class="product-cards__container">
+            <div class="product-cards__header">Header Brand 2</div>
+            <div class="product-cards__list">
+              <div class="product-card --1">
+                <div class="product-card__top">
+                  <div class="product-card__logo">Лого бренду</div>
+                  <div>
+                    <p class="product-card__name">Сукня синя шовкова</p>
+                    <p class="product-card__sku">v003-g0217-art616565165</p>
+                  </div>
+                </div>
+
+                <div class="product-card__img__box">
+                  <button class="product-card__img--overlay-push" type="button">
+                    Більше інформації
+                  </button>
+
+                  <div class="product-card__img--overlay">
+                    <p class="product-card__description">
+                      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deleniti magni
+                      corrupti provident reprehenderit porro repudiandae temporibus illo dolorum
+                      qui? Voluptates vitae molestias quo, cum debitis eum illo eligendi numquam
+                      nulla?
+                    </p>
+
+                    <p>
+                      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deleniti magni
+                      corrupti provident reprehenderit porro repudiandae temporibus illo dolorum
+                      qui? Voluptates vitae molestias quo, cum debitis eum illo eligendi numquam
+                      nulla?
+                    </p>
+                    <p>
+                      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deleniti magni
+                      corrupti provident reprehenderit porro repudiandae temporibus illo dolorum
+                      qui? Voluptates vitae molestias quo, cum debitis eum illo eligendi numquam
+                      nulla?
+                    </p>
+                    <p>
+                      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deleniti magni
+                      corrupti provident reprehenderit porro repudiandae temporibus illo dolorum
+                      qui? Voluptates vitae molestias quo, cum debitis eum illo eligendi numquam
+                      nulla?
+                    </p>
+                  </div>
+
+                  <img
+                    class="product-card__img"
+                    src="./suknia_rozeva.28ad8f75.webp"
+                    width="480"
+                    alt=""
+                  />
+                </div>
+
+                <div class="product-card__bottom">
+                  <div class="product-card__wrapper">
+                    <div>
+                      <p class="product-card__price">3955.00грн.</p>
+                      <p class="product-card__cashback">v003 * * *</p>
+                    </div>
+
+                    <button class="button --to-cart" type="button">У кошик</button>
+                  </div>
+
+                  <form class="product-card__feedback">
+                    <input
+                      class="product-card__input"
+                      type="text"
+                      name=""
+                      id=""
+                      placeholder="Ваш відгук"
+                      required=""
+                    />
+                    <button class="button --send-feedback" type="submit">Опублікувати</button>
+                  </form>
+                </div>
+              </div>
+
+              <div class="product-card --1">
+                <div class="product-card__top">
+                  <div class="product-card__logo">Лого бренду</div>
+                  <div>
+                    <p class="product-card__name">Сукня синя шовкова</p>
+                    <p class="product-card__sku">v003-g0217-art616565165</p>
+                  </div>
+                </div>
+
+                <div class="product-card__img__box">
+                  <button class="product-card__img--overlay-push" type="button">
+                    Більше інформації
+                  </button>
+
+                  <div class="product-card__img--overlay">
+                    <p class="product-card__description">
+                      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deleniti magni
+                      corrupti provident reprehenderit porro repudiandae temporibus illo dolorum
+                      qui? Voluptates vitae molestias quo, cum debitis eum illo eligendi numquam
+                      nulla?
+                    </p>
+
+                    <p>
+                      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deleniti magni
+                      corrupti provident reprehenderit porro repudiandae temporibus illo dolorum
+                      qui? Voluptates vitae molestias quo, cum debitis eum illo eligendi numquam
+                      nulla?
+                    </p>
+                    <p>
+                      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deleniti magni
+                      corrupti provident reprehenderit porro repudiandae temporibus illo dolorum
+                      qui? Voluptates vitae molestias quo, cum debitis eum illo eligendi numquam
+                      nulla?
+                    </p>
+                    <p>
+                      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deleniti magni
+                      corrupti provident reprehenderit porro repudiandae temporibus illo dolorum
+                      qui? Voluptates vitae molestias quo, cum debitis eum illo eligendi numquam
+                      nulla?
+                    </p>
+                  </div>
+
+                  <img
+                    class="product-card__img"
+                    src="./suknia_rozeva.28ad8f75.webp"
+                    width="480"
+                    alt=""
+                  />
+                </div>
+
+                <div class="product-card__bottom">
+                  <div class="product-card__wrapper">
+                    <div>
+                      <p class="product-card__price">3955.00грн.</p>
+                      <p class="product-card__cashback">v003 * * *</p>
+                    </div>
+
+                    <button class="button --to-cart" type="button">У кошик</button>
+                  </div>
+
+                  <form class="product-card__feedback">
+                    <input
+                      class="product-card__input"
+                      type="text"
+                      name=""
+                      id=""
+                      placeholder="Ваш відгук"
+                      required=""
+                    />
+                    <button class="button --send-feedback" type="submit">Опублікувати</button>
+                  </form>
+                </div>
+              </div>
+
+              <div class="product-card --1">
+                <div class="product-card__top">
+                  <div class="product-card__logo">Лого бренду</div>
+                  <div>
+                    <p class="product-card__name">Сукня синя шовкова</p>
+                    <p class="product-card__sku">v003-g0217-art616565165</p>
+                  </div>
+                </div>
+
+                <div class="product-card__img__box">
+                  <button class="product-card__img--overlay-push" type="button">
+                    Більше інформації
+                  </button>
+
+                  <div class="product-card__img--overlay">
+                    <p class="product-card__description">
+                      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deleniti magni
+                      corrupti provident reprehenderit porro repudiandae temporibus illo dolorum
+                      qui? Voluptates vitae molestias quo, cum debitis eum illo eligendi numquam
+                      nulla?
+                    </p>
+
+                    <p>
+                      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deleniti magni
+                      corrupti provident reprehenderit porro repudiandae temporibus illo dolorum
+                      qui? Voluptates vitae molestias quo, cum debitis eum illo eligendi numquam
+                      nulla?
+                    </p>
+                    <p>
+                      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deleniti magni
+                      corrupti provident reprehenderit porro repudiandae temporibus illo dolorum
+                      qui? Voluptates vitae molestias quo, cum debitis eum illo eligendi numquam
+                      nulla?
+                    </p>
+                    <p>
+                      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deleniti magni
+                      corrupti provident reprehenderit porro repudiandae temporibus illo dolorum
+                      qui? Voluptates vitae molestias quo, cum debitis eum illo eligendi numquam
+                      nulla?
+                    </p>
+                  </div>
+
+                  <img
+                    class="product-card__img"
+                    src="./suknia_rozeva.28ad8f75.webp"
+                    width="480"
+                    alt=""
+                  />
+                </div>
+
+                <div class="product-card__bottom">
+                  <div class="product-card__wrapper">
+                    <div>
+                      <p class="product-card__price">3955.00грн.</p>
+                      <p class="product-card__cashback">v003 * * *</p>
+                    </div>
+
+                    <button class="button --to-cart" type="button">У кошик</button>
+                  </div>
+
+                  <form class="product-card__feedback">
+                    <input
+                      class="product-card__input"
+                      type="text"
+                      name=""
+                      id=""
+                      placeholder="Ваш відгук"
+                      required=""
+                    />
+                    <button class="button --send-feedback" type="submit">Опублікувати</button>
+                  </form>
+                </div>
+              </div>
+
+              <div class="product-card --1">
+                <div class="product-card__top">
+                  <div class="product-card__logo">Лого бренду</div>
+                  <div>
+                    <p class="product-card__name">Сукня синя шовкова</p>
+                    <p class="product-card__sku">v003-g0217-art616565165</p>
+                  </div>
+                </div>
+
+                <div class="product-card__img__box">
+                  <button class="product-card__img--overlay-push" type="button">
+                    Більше інформації
+                  </button>
+
+                  <div class="product-card__img--overlay">
+                    <p class="product-card__description">
+                      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deleniti magni
+                      corrupti provident reprehenderit porro repudiandae temporibus illo dolorum
+                      qui? Voluptates vitae molestias quo, cum debitis eum illo eligendi numquam
+                      nulla?
+                    </p>
+
+                    <p>
+                      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deleniti magni
+                      corrupti provident reprehenderit porro repudiandae temporibus illo dolorum
+                      qui? Voluptates vitae molestias quo, cum debitis eum illo eligendi numquam
+                      nulla?
+                    </p>
+                    <p>
+                      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deleniti magni
+                      corrupti provident reprehenderit porro repudiandae temporibus illo dolorum
+                      qui? Voluptates vitae molestias quo, cum debitis eum illo eligendi numquam
+                      nulla?
+                    </p>
+                    <p>
+                      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deleniti magni
+                      corrupti provident reprehenderit porro repudiandae temporibus illo dolorum
+                      qui? Voluptates vitae molestias quo, cum debitis eum illo eligendi numquam
+                      nulla?
+                    </p>
+                  </div>
+
+                  <img
+                    class="product-card__img"
+                    src="./suknia_rozeva.28ad8f75.webp"
+                    width="480"
+                    alt=""
+                  />
+                </div>
+
+                <div class="product-card__bottom">
+                  <div class="product-card__wrapper">
+                    <div>
+                      <p class="product-card__price">3955.00грн.</p>
+                      <p class="product-card__cashback">v003 * * *</p>
+                    </div>
+
+                    <button class="button --to-cart" type="button">У кошик</button>
+                  </div>
+
+                  <form class="product-card__feedback">
+                    <input
+                      class="product-card__input"
+                      type="text"
+                      name=""
+                      id=""
+                      placeholder="Ваш відгук"
+                      required=""
+                    />
+                    <button class="button --send-feedback" type="submit">Опублікувати</button>
+                  </form>
+                </div>
+              </div>
+
+              <div class="product-card --1">
+                <div class="product-card__top">
+                  <div class="product-card__logo">Лого бренду</div>
+                  <div>
+                    <p class="product-card__name">Сукня синя шовкова</p>
+                    <p class="product-card__sku">v003-g0217-art616565165</p>
+                  </div>
+                </div>
+
+                <div class="product-card__img__box">
+                  <button class="product-card__img--overlay-push" type="button">
+                    Більше інформації
+                  </button>
+
+                  <div class="product-card__img--overlay">
+                    <p class="product-card__description">
+                      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deleniti magni
+                      corrupti provident reprehenderit porro repudiandae temporibus illo dolorum
+                      qui? Voluptates vitae molestias quo, cum debitis eum illo eligendi numquam
+                      nulla?
+                    </p>
+
+                    <p>
+                      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deleniti magni
+                      corrupti provident reprehenderit porro repudiandae temporibus illo dolorum
+                      qui? Voluptates vitae molestias quo, cum debitis eum illo eligendi numquam
+                      nulla?
+                    </p>
+                    <p>
+                      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deleniti magni
+                      corrupti provident reprehenderit porro repudiandae temporibus illo dolorum
+                      qui? Voluptates vitae molestias quo, cum debitis eum illo eligendi numquam
+                      nulla?
+                    </p>
+                    <p>
+                      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deleniti magni
+                      corrupti provident reprehenderit porro repudiandae temporibus illo dolorum
+                      qui? Voluptates vitae molestias quo, cum debitis eum illo eligendi numquam
+                      nulla?
+                    </p>
+                  </div>
+
+                  <img
+                    class="product-card__img"
+                    src="./suknia_rozeva.28ad8f75.webp"
+                    width="480"
+                    alt=""
+                  />
+                </div>
+
+                <div class="product-card__bottom">
+                  <div class="product-card__wrapper">
+                    <div>
+                      <p class="product-card__price">3955.00грн.</p>
+                      <p class="product-card__cashback">v003 * * *</p>
+                    </div>
+
+                    <button class="button --to-cart" type="button">У кошик</button>
+                  </div>
+
+                  <form class="product-card__feedback">
+                    <input
+                      class="product-card__input"
+                      type="text"
+                      name=""
+                      id=""
+                      placeholder="Ваш відгук"
+                      required=""
+                    />
+                    <button class="button --send-feedback" type="submit">Опублікувати</button>
+                  </form>
+                </div>
               </div>
             </div>
-            <div class="brand-cards__container">
-              <div class="brand-cards__box">
-                бренд 3
-                <div class="brand-card --3"><img src="https://picsum.photos/800?random=13" alt=""></div>
-                <div class="brand-card --3"><img src="https://picsum.photos/800?random=14" alt=""></div>
-                <div class="brand-card --3"><img src="https://picsum.photos/800?random=15" alt=""></div>
-                <div class="brand-card --3"><img src="https://picsum.photos/800?random=16" alt=""></div>
-                <div class="brand-card --3"><img src="https://picsum.photos/800?random=17" alt=""></div>
-                <div class="brand-card --3"><img src="https://picsum.photos/800?random=18" alt=""></div>
+          </div>
+
+          <div class="product-cards__container">
+            <div class="product-cards__header">Header Brand 3</div>
+            <div class="product-cards__list">
+              <div class="product-card --1">
+                <div class="product-card__top">
+                  <div class="product-card__logo">Лого бренду</div>
+                  <div>
+                    <p class="product-card__name">Сукня синя шовкова</p>
+                    <p class="product-card__sku">v003-g0217-art616565165</p>
+                  </div>
+                </div>
+
+                <div class="product-card__img__box">
+                  <button class="product-card__img--overlay-push" type="button">
+                    Більше інформації
+                  </button>
+
+                  <div class="product-card__img--overlay">
+                    <p class="product-card__description">
+                      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deleniti magni
+                      corrupti provident reprehenderit porro repudiandae temporibus illo dolorum
+                      qui? Voluptates vitae molestias quo, cum debitis eum illo eligendi numquam
+                      nulla?
+                    </p>
+
+                    <p>
+                      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deleniti magni
+                      corrupti provident reprehenderit porro repudiandae temporibus illo dolorum
+                      qui? Voluptates vitae molestias quo, cum debitis eum illo eligendi numquam
+                      nulla?
+                    </p>
+                    <p>
+                      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deleniti magni
+                      corrupti provident reprehenderit porro repudiandae temporibus illo dolorum
+                      qui? Voluptates vitae molestias quo, cum debitis eum illo eligendi numquam
+                      nulla?
+                    </p>
+                    <p>
+                      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deleniti magni
+                      corrupti provident reprehenderit porro repudiandae temporibus illo dolorum
+                      qui? Voluptates vitae molestias quo, cum debitis eum illo eligendi numquam
+                      nulla?
+                    </p>
+                  </div>
+
+                  <img
+                    class="product-card__img"
+                    src="./suknia_zelena.f003fac4.webp"
+                    width="480"
+                    alt=""
+                  />
+                </div>
+
+                <div class="product-card__bottom">
+                  <div class="product-card__wrapper">
+                    <div>
+                      <p class="product-card__price">3955.00грн.</p>
+                      <p class="product-card__cashback">v003 * * *</p>
+                    </div>
+
+                    <button class="button --to-cart" type="button">У кошик</button>
+                  </div>
+
+                  <form class="product-card__feedback">
+                    <input
+                      class="product-card__input"
+                      type="text"
+                      name=""
+                      id=""
+                      placeholder="Ваш відгук"
+                      required=""
+                    />
+                    <button class="button --send-feedback" type="submit">Опублікувати</button>
+                  </form>
+                </div>
+              </div>
+
+              <div class="product-card --1">
+                <div class="product-card__top">
+                  <div class="product-card__logo">Лого бренду</div>
+                  <div>
+                    <p class="product-card__name">Сукня синя шовкова</p>
+                    <p class="product-card__sku">v003-g0217-art616565165</p>
+                  </div>
+                </div>
+
+                <div class="product-card__img__box">
+                  <button class="product-card__img--overlay-push" type="button">
+                    Більше інформації
+                  </button>
+
+                  <div class="product-card__img--overlay">
+                    <p class="product-card__description">
+                      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deleniti magni
+                      corrupti provident reprehenderit porro repudiandae temporibus illo dolorum
+                      qui? Voluptates vitae molestias quo, cum debitis eum illo eligendi numquam
+                      nulla?
+                    </p>
+
+                    <p>
+                      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deleniti magni
+                      corrupti provident reprehenderit porro repudiandae temporibus illo dolorum
+                      qui? Voluptates vitae molestias quo, cum debitis eum illo eligendi numquam
+                      nulla?
+                    </p>
+                    <p>
+                      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deleniti magni
+                      corrupti provident reprehenderit porro repudiandae temporibus illo dolorum
+                      qui? Voluptates vitae molestias quo, cum debitis eum illo eligendi numquam
+                      nulla?
+                    </p>
+                    <p>
+                      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deleniti magni
+                      corrupti provident reprehenderit porro repudiandae temporibus illo dolorum
+                      qui? Voluptates vitae molestias quo, cum debitis eum illo eligendi numquam
+                      nulla?
+                    </p>
+                  </div>
+
+                  <img
+                    class="product-card__img"
+                    src="./suknia_zelena.f003fac4.webp"
+                    width="480"
+                    alt=""
+                  />
+                </div>
+
+                <div class="product-card__bottom">
+                  <div class="product-card__wrapper">
+                    <div>
+                      <p class="product-card__price">3955.00грн.</p>
+                      <p class="product-card__cashback">v003 * * *</p>
+                    </div>
+
+                    <button class="button --to-cart" type="button">У кошик</button>
+                  </div>
+
+                  <form class="product-card__feedback">
+                    <input
+                      class="product-card__input"
+                      type="text"
+                      name=""
+                      id=""
+                      placeholder="Ваш відгук"
+                      required=""
+                    />
+                    <button class="button --send-feedback" type="submit">Опублікувати</button>
+                  </form>
+                </div>
+              </div>
+
+              <div class="product-card --1">
+                <div class="product-card__top">
+                  <div class="product-card__logo">Лого бренду</div>
+                  <div>
+                    <p class="product-card__name">Сукня синя шовкова</p>
+                    <p class="product-card__sku">v003-g0217-art616565165</p>
+                  </div>
+                </div>
+
+                <div class="product-card__img__box">
+                  <button class="product-card__img--overlay-push" type="button">
+                    Більше інформації
+                  </button>
+
+                  <div class="product-card__img--overlay">
+                    <p class="product-card__description">
+                      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deleniti magni
+                      corrupti provident reprehenderit porro repudiandae temporibus illo dolorum
+                      qui? Voluptates vitae molestias quo, cum debitis eum illo eligendi numquam
+                      nulla?
+                    </p>
+
+                    <p>
+                      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deleniti magni
+                      corrupti provident reprehenderit porro repudiandae temporibus illo dolorum
+                      qui? Voluptates vitae molestias quo, cum debitis eum illo eligendi numquam
+                      nulla?
+                    </p>
+                    <p>
+                      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deleniti magni
+                      corrupti provident reprehenderit porro repudiandae temporibus illo dolorum
+                      qui? Voluptates vitae molestias quo, cum debitis eum illo eligendi numquam
+                      nulla?
+                    </p>
+                    <p>
+                      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deleniti magni
+                      corrupti provident reprehenderit porro repudiandae temporibus illo dolorum
+                      qui? Voluptates vitae molestias quo, cum debitis eum illo eligendi numquam
+                      nulla?
+                    </p>
+                  </div>
+
+                  <img
+                    class="product-card__img"
+                    src="./suknia_zelena.f003fac4.webp"
+                    width="480"
+                    alt=""
+                  />
+                </div>
+
+                <div class="product-card__bottom">
+                  <div class="product-card__wrapper">
+                    <div>
+                      <p class="product-card__price">3955.00грн.</p>
+                      <p class="product-card__cashback">v003 * * *</p>
+                    </div>
+
+                    <button class="button --to-cart" type="button">У кошик</button>
+                  </div>
+
+                  <form class="product-card__feedback">
+                    <input
+                      class="product-card__input"
+                      type="text"
+                      name=""
+                      id=""
+                      placeholder="Ваш відгук"
+                      required=""
+                    />
+                    <button class="button --send-feedback" type="submit">Опублікувати</button>
+                  </form>
+                </div>
+              </div>
+
+              <div class="product-card --1">
+                <div class="product-card__top">
+                  <div class="product-card__logo">Лого бренду</div>
+                  <div>
+                    <p class="product-card__name">Сукня синя шовкова</p>
+                    <p class="product-card__sku">v003-g0217-art616565165</p>
+                  </div>
+                </div>
+
+                <div class="product-card__img__box">
+                  <button class="product-card__img--overlay-push" type="button">
+                    Більше інформації
+                  </button>
+
+                  <div class="product-card__img--overlay">
+                    <p class="product-card__description">
+                      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deleniti magni
+                      corrupti provident reprehenderit porro repudiandae temporibus illo dolorum
+                      qui? Voluptates vitae molestias quo, cum debitis eum illo eligendi numquam
+                      nulla?
+                    </p>
+
+                    <p>
+                      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deleniti magni
+                      corrupti provident reprehenderit porro repudiandae temporibus illo dolorum
+                      qui? Voluptates vitae molestias quo, cum debitis eum illo eligendi numquam
+                      nulla?
+                    </p>
+                    <p>
+                      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deleniti magni
+                      corrupti provident reprehenderit porro repudiandae temporibus illo dolorum
+                      qui? Voluptates vitae molestias quo, cum debitis eum illo eligendi numquam
+                      nulla?
+                    </p>
+                    <p>
+                      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deleniti magni
+                      corrupti provident reprehenderit porro repudiandae temporibus illo dolorum
+                      qui? Voluptates vitae molestias quo, cum debitis eum illo eligendi numquam
+                      nulla?
+                    </p>
+                  </div>
+
+                  <img
+                    class="product-card__img"
+                    src="./suknia_zelena.f003fac4.webp"
+                    width="480"
+                    alt=""
+                  />
+                </div>
+
+                <div class="product-card__bottom">
+                  <div class="product-card__wrapper">
+                    <div>
+                      <p class="product-card__price">3955.00грн.</p>
+                      <p class="product-card__cashback">v003 * * *</p>
+                    </div>
+
+                    <button class="button --to-cart" type="button">У кошик</button>
+                  </div>
+
+                  <form class="product-card__feedback">
+                    <input
+                      class="product-card__input"
+                      type="text"
+                      name=""
+                      id=""
+                      placeholder="Ваш відгук"
+                      required=""
+                    />
+                    <button class="button --send-feedback" type="submit">Опублікувати</button>
+                  </form>
+                </div>
+              </div>
+
+              <div class="product-card --1">
+                <div class="product-card__top">
+                  <div class="product-card__logo">Лого бренду</div>
+                  <div>
+                    <p class="product-card__name">Сукня синя шовкова</p>
+                    <p class="product-card__sku">v003-g0217-art616565165</p>
+                  </div>
+                </div>
+
+                <div class="product-card__img__box">
+                  <button class="product-card__img--overlay-push" type="button">
+                    Більше інформації
+                  </button>
+
+                  <div class="product-card__img--overlay">
+                    <p class="product-card__description">
+                      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deleniti magni
+                      corrupti provident reprehenderit porro repudiandae temporibus illo dolorum
+                      qui? Voluptates vitae molestias quo, cum debitis eum illo eligendi numquam
+                      nulla?
+                    </p>
+
+                    <p>
+                      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deleniti magni
+                      corrupti provident reprehenderit porro repudiandae temporibus illo dolorum
+                      qui? Voluptates vitae molestias quo, cum debitis eum illo eligendi numquam
+                      nulla?
+                    </p>
+                    <p>
+                      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deleniti magni
+                      corrupti provident reprehenderit porro repudiandae temporibus illo dolorum
+                      qui? Voluptates vitae molestias quo, cum debitis eum illo eligendi numquam
+                      nulla?
+                    </p>
+                    <p>
+                      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deleniti magni
+                      corrupti provident reprehenderit porro repudiandae temporibus illo dolorum
+                      qui? Voluptates vitae molestias quo, cum debitis eum illo eligendi numquam
+                      nulla?
+                    </p>
+                  </div>
+
+                  <img
+                    class="product-card__img"
+                    src="./suknia_zelena.f003fac4.webp"
+                    width="480"
+                    alt=""
+                  />
+                </div>
+
+                <div class="product-card__bottom">
+                  <div class="product-card__wrapper">
+                    <div>
+                      <p class="product-card__price">3955.00грн.</p>
+                      <p class="product-card__cashback">v003 * * *</p>
+                    </div>
+
+                    <button class="button --to-cart" type="button">У кошик</button>
+                  </div>
+
+                  <form class="product-card__feedback">
+                    <input
+                      class="product-card__input"
+                      type="text"
+                      name=""
+                      id=""
+                      placeholder="Ваш відгук"
+                      required=""
+                    />
+                    <button class="button --send-feedback" type="submit">Опублікувати</button>
+                  </form>
+                </div>
               </div>
             </div>
           </div>
         </div>
       </div>
-    </section>
-    <!-- <include src="./partials/block.html"></include> -->
-    <section class="section --flex">
-      <!-- <include src="./partials/block.html"></include> -->
-      <!-- <include src="./partials/block.html"></include> -->
-    </section>
-    <!-- <include src="" ></include> -->
+    </div>
 
     <!-- script jquery -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.js"></script>
     <!-- script slick -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.js"></script>
     <!-- script local -->
-    <script src="./index.975ef6c8.js" defer=""></script>
   </body>
 </html>
